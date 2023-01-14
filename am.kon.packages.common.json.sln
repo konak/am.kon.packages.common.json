@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am.kon.packages.common.json", "am.kon.packages.common.json.csproj", "{CFFE2E79-5384-442B-8CF6-B36BF956B60F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A9E343D-6F17-4ED6-9EFA-91ACDC09B07A}
+	EndGlobalSection
+EndGlobal
