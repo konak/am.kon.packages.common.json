@@ -3,10 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>disable</Nullable>
-    <ReleaseVersion>1.0.0</ReleaseVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>am.kon.packages.common.json</PackageId>
-    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageVersion>1.0.0.1</PackageVersion>
     <Authors>Konakov Sergey</Authors>
     <Description>Package containing extensions, used for JSON strings processing</Description>
     <RepositoryUrl>https://github.com/konak/am.kon.packages.common.json</RepositoryUrl>

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1704.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am.kon.packages.common.json", "am.kon.packages.common.json.csproj", "{CFFE2E79-5384-442B-8CF6-B36BF956B60F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{945CD3DC-6476-4434-B2B6-EAB195D9B02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am.kon.packages.common.json", "src\am.kon.packages.common.json.csproj", "{AB71B296-9709-4BE6-8E41-695F4BC977BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFFE2E79-5384-442B-8CF6-B36BF956B60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB71B296-9709-4BE6-8E41-695F4BC977BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB71B296-9709-4BE6-8E41-695F4BC977BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB71B296-9709-4BE6-8E41-695F4BC977BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB71B296-9709-4BE6-8E41-695F4BC977BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A9E343D-6F17-4ED6-9EFA-91ACDC09B07A}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB71B296-9709-4BE6-8E41-695F4BC977BE} = {945CD3DC-6476-4434-B2B6-EAB195D9B02A}
 	EndGlobalSection
 EndGlobal
