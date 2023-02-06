@@ -30,5 +30,5 @@ jobs:
       run: dotnet pack --output ./packages --no-build --no-restore
     - name: Push
       with:
-        api-secret: ${{ secret.NUGET_PUBLISH_SECRET }}
+        api-secret: ${{ secrets.NUGET_PUBLISH_SECRET }}
       run: dotnet nuget push /home/runner/work/am.kon.packages.common.json/am.kon.packages.common.json/packages/am.kon.packages.common.json.1.0.0.1.nupkg --api-key "$api-secret" --source https://api.nuget.org/v3/index.json --skip-duplicate
