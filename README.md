@@ -31,5 +31,3 @@ Use the JsonCommonExtensions.Configure method to set custom serialization option
 var options = new JsonSerializerOptions { WriteIndented = true };
 JsonCommonExtensions.Configure(options);
 ```
-
-This README provides a brief description, usage examples, and configuration instructions for your class.
