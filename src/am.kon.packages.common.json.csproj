@@ -5,9 +5,9 @@
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>am.kon.packages.common.json</PackageId>
-    <PackageVersion>1.0.0.1</PackageVersion>
+    <PackageVersion>1.0.0.2</PackageVersion>
     <Authors>Konakov Sergey</Authors>
-    <Description>Package containing extensions, used for JSON strings processing</Description>
+    <Description>A utility package providing extension methods for effortless JSON serialization and deserialization using System.Text.Json.</Description>
     <RepositoryUrl>https://github.com/konak/am.kon.packages.common.json</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>konak packages json</PackageTags>
@@ -17,6 +17,6 @@
     <None Remove="Newtonsoft.Json" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="System.Text.Json" Version="7.0.3" />
   </ItemGroup>
 </Project>
