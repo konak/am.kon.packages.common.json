@@ -5,7 +5,7 @@
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>am.kon.packages.common.json</PackageId>
-    <PackageVersion>1.0.0.3</PackageVersion>
+    <PackageVersion>1.0.0.4</PackageVersion>
     <Authors>Konakov Sergey</Authors>
     <Description>A utility package providing extension methods for effortless JSON serialization and deserialization using System.Text.Json.</Description>
     <RepositoryUrl>https://github.com/konak/am.kon.packages.common.json</RepositoryUrl>
