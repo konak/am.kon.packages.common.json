@@ -32,4 +32,4 @@ jobs:
       env:
         api_secret: ${{ secrets.NUGET_PUBLISH_SECRET }}
       run: |
-        dotnet nuget push /home/runner/work/am.kon.packages.common.json/am.kon.packages.common.json/src/bin/Debug/am.kon.packages.common.json.*.nupkg --api-key "$api_secret" --source https://api.nuget.org/v3/index.json --skip-duplicate
+        dotnet nuget push packages/am.kon.packages.common.json.*.nupkg --api-key "$api_secret" --source https://api.nuget.org/v3/index.json --skip-duplicate
