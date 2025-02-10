@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 /// <summary>
 /// Provides common JSON serialization and deserialization extensions.
@@ -20,6 +21,7 @@ public static class JsonCommonExtensions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             WriteIndented = false,
+            ReferenceHandler = ReferenceHandler.Preserve
         };
     }
 
